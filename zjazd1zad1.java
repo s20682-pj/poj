@@ -23,24 +23,74 @@ public class Main {
                     System.out.println("---------------");
                 }
 
-            }
-            else if (size.equals("M")) {
+            } else if (size.equals("M")) {
                 for (int i = 0; i < 10; i++) {
                     System.out.println("|                            |");
                 }
                 for (int i = 0; i < 10; i++) {
                     System.out.println("||||||||||||||||||||||||||||||");
                 }
-            }
-            else if(size.equals("L")){
-                for(int i=0;i<15;i++){
+            } else if (size.equals("L")) {
+                for (int i = 0; i < 15; i++) {
                     System.out.println("|                                           |");
                 }
-                for(int i=0;i<15;i++){
+                for (int i = 0; i < 15; i++) {
                     System.out.println("|||||||||||||||||||||||||||||||||||||||||||||");
                 }
             }
 
+        }
+
+        if (flag.equals("JP")) {
+            if (size.equals("S")) {
+                System.out.println(" _ _ _ _ _ _ _ _ _ _ _");
+                for (int i = 0; i < 1; i++) {
+                    System.out.println("|                    |");
+                }
+                System.out.println("|          -         |");
+                System.out.println("|       |     |      |");
+                System.out.println("|       |     |      |");
+                System.out.println("|          -         |");
+                for (int i = 0; i <1; i++) {
+                    System.out.println("|                    |");
+                }
+                System.out.println(" _ _ _ _ _ _ _ _ _ _ _");
+            }
+        }
+
+        if (flag.equals("JP")) {
+            if (size.equals("M")) {
+                System.out.println(" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+                for (int i = 0; i < 2; i++) {
+                    System.out.println("|                                          |");
+                }
+                System.out.println("|                   ----                   |");
+                System.out.println("|                |        |                |");
+                System.out.println("|                |        |                |");
+                System.out.println("|                   ----                   |");
+                for (int i = 0; i <2; i++) {
+                    System.out.println("|                                          |");
+                }
+                System.out.println(" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+            }
+        }
+
+        if (flag.equals("JP")) {
+            if (size.equals("L")) {
+                System.out.println(" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+                for (int i = 0; i < 4; i++) {
+                    System.out.println("|                                                                                      |");
+                }
+                System.out.println("|                                        ------                                        |");
+                System.out.println("|                                     |          |                                     |");
+                System.out.println("|                                    |            |                                    |");
+                System.out.println("|                                     |          |                                     |");
+                System.out.println("|                                        ------                                        |");
+                for (int i = 0; i <4; i++) {
+                    System.out.println("|                                                                                      |");
+                }
+                System.out.println(" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+            }
         }
     }
 }
