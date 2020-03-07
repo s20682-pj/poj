@@ -1,3 +1,6 @@
+/* Zuzanna Ciborowska
+Piramida */
+
 package com.company;
 import java.util.Scanner;
 
