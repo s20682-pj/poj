@@ -10,6 +10,13 @@ public class trojkat {
     public double sideA;
     public double sideB;
     public double height;
+    
+    public trojkat(double base, double sideA, double sideB, double height) {
+        this.base = base;
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.height = height;
+    }
 
     public void arearesult(double area){
         area=(base*height)/2;
