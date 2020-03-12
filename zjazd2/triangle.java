@@ -5,13 +5,13 @@ Klasa powinna posiadać metody: obliczające pole, obwód,  isEquilateral, isIs
  */
 package com.company;
 
-public class trojkat {
+public class triangle {
     public double base;
     public double sideA;
     public double sideB;
     public double height;
     
-    public trojkat(double base, double sideA, double sideB, double height) {
+    public triangle(double base, double sideA, double sideB, double height) {
         this.base = base;
         this.sideA = sideA;
         this.sideB = sideB;
