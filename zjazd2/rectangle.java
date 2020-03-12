@@ -5,11 +5,11 @@ Klasa powinna posiadać metody obliczające pole, obwód i długość przekątne
 
 package com.company;
 
-public class prostokat {
-    public int width;
-    public int height;
+public class rectangle {
+    public float width;
+    public float height;
     
-    public Rectangle(int width, int length) {
+    public Rectangle(float width, float length) {
         this.width = width;
         this.length = length;
     }
@@ -22,15 +22,15 @@ public class prostokat {
         return width;
     }
 
-    public void arearesult(int area){
+    public void arearesult(float area){
         area = width*height;
     }
 
-    public void circuitresult(int circuit){
+    public void circuitresult(float circuit){
         circuit=2*width+2*height;
     }
 
-    public void diagonalresult(double diagonal){
+    public void diagonalresult(float diagonal){
         diagonal = Math.sqrt((width * width) + (height * height));
     }
 }
