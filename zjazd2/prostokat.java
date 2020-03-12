@@ -8,13 +8,26 @@ package com.company;
 public class prostokat {
     public int width;
     public int height;
+    
+    public Rectangle(int width, int length) {
+        this.width = width;
+        this.length = length;
+    }
+    
+    public float getLenght() {
+        return lenght;
+    }
+
+    public float getWidth() {
+        return width;
+    }
 
     public void arearesult(int area){
         area = width*height;
     }
 
-    public void perimeterresult(int perimeter){
-        perimeter=2*width+2*height;
+    public void circuitresult(int circuit){
+        circuit=2*width+2*height;
     }
 
     public void diagonalresult(double diagonal){
