@@ -9,7 +9,7 @@ public class rectangle {
     public float width;
     public float height;
     
-    public Rectangle(float width, float length) {
+    public rectangle(float width, float length) {
         this.width = width;
         this.length = length;
     }
