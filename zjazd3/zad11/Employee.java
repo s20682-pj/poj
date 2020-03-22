@@ -46,7 +46,7 @@ public class Employee {
     }
 
     public String toString(){
-        String tempString = "Employee[id=" + this.ID + " name: " + this.firstName + this.lastName + " salary: " + this.salary + "]";
+        String tempString = "Employee[id=" + this.ID + ", name: " + this.firstName + this.lastName + ", salary: " + this.salary + "]";
         return tempString;
     }
 }
