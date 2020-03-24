@@ -6,8 +6,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    Account account1 = new Account("1","account no. 1", 100);
+	Account account1 = new Account("1","account no. 1", 100);
         Account account2 = new Account("2","account no. 2");
+        System.out.println("Account 1 id: " + account1.getID());
+        System.out.println("Account 1 name: " + account1.getName());
         System.out.println(account1.toString());
         System.out.println(account2.toString());
         account1.credit(1000);
@@ -21,3 +23,4 @@ public class Main {
         System.out.println("New account no. 2 balance: " + account2.getBalance());
     }
 }
+
