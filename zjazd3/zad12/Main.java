@@ -1,3 +1,6 @@
+/*InvoiceItem
+Zuzanna Ciborowska*/
+
 package com.company;
 
 public class Main {
