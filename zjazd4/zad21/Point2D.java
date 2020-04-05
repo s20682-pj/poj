@@ -36,9 +36,8 @@ public class Point2D {
         this.y = y;
     }
 
-    public float[] getXY(){
-        float[] result = {x,y};
-        return result;
+    public List getXY(){
+        return Arrays.asList(x,y);
     }
 
     public String toString(){
