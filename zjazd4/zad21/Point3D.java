@@ -1,5 +1,5 @@
 /*Zuzanna Ciborowska
-Implement the following UML chart (points)*/
+Implement the following UML chart (point 2d and 3d)*/
 
 package com.company;
 
