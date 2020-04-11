@@ -24,10 +24,9 @@ class Player {
 
         // game loop
         while (true) {
-            int E = in.nextInt(); // The level of Thor's remaining energy, representing the number of moves he can still make.
+            int E = in.nextInt(); 
             in.nextLine();
 
-			// map size 40 x 18
             String direction = "";
             if(LY > TY && TY < 17){
                 TY++;
