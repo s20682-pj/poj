@@ -1,5 +1,5 @@
-/* Implement the following UML chart
-Shape*/
+/* Implement the following UML chart - Shape
+Zuzanna Ciborowska*/
 
 package com.company;
 
