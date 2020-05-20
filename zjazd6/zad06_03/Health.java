@@ -19,6 +19,6 @@ public class Health extends Insurance {
 
     @Override
     public void display() {
-        System.out.println("Life insurance price is: " + this.monthly_price + "$");
+        System.out.println("Health insurance price is: " + this.monthly_price + "$");
     }
 }
